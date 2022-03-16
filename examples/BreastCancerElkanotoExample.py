@@ -33,7 +33,7 @@ def load_breast_cancer(path):
 if __name__ == '__main__':
     np.random.seed(42)
     dpath = os.path.dirname(os.path.abspath(__file__))
-    fpath = os.path.join(dpath, 'datasets/breast-cancer-wisconsin.data')
+    fpath = os.path.join(dpath, 'datasets/breast-cancer-wisconsin.csv')
     print("Loading the Wisconsin breast cancer dataset from path:\n{}".format(
         fpath))
     print("Loading data...")
